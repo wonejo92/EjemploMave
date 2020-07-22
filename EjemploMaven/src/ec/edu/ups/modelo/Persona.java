@@ -95,11 +95,6 @@ public class Persona implements Serializable {
 	public String toString() {
 		return "Persona [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", Catidad=" + Catidad + "]";
 	}
-
-
-	
-	
-	
-	
+	//Funciona Plisss
    
 }
