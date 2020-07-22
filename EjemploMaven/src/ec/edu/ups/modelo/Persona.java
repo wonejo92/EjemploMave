@@ -15,6 +15,7 @@ public class Persona implements Serializable {
 	private int id;
 	private String nombre;
 	private String apellido;
+	private double Catidad;
 	
 
 	private static final long serialVersionUID = 1L;
@@ -56,6 +57,15 @@ public class Persona implements Serializable {
 		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
 		return result;
 	}
+	
+
+	public double getCatidad() {
+		return Catidad;
+	}
+
+	public void setCatidad(double catidad) {
+		Catidad = catidad;
+	}
 
 	@Override
 	public boolean equals(Object obj) {
@@ -83,8 +93,10 @@ public class Persona implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Persona [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + "]";
+		return "Persona [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", Catidad=" + Catidad + "]";
 	}
+
+
 	
 	
 	
